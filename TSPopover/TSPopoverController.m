@@ -13,11 +13,11 @@
 #import <QuartzCore/QuartzCore.h>
 
 
-#define CORNER_RADIUS 5
+#define CORNER_RADIUS 0
 #define MARGIN 5
 #define OUTER_MARGIN 5
-#define TITLE_LABEL_HEIGHT 25
-#define ARROW_SIZE 20
+#define TITLE_LABEL_HEIGHT 20
+#define ARROW_SIZE 12
 #define ARROW_MARGIN 2
 
 @interface TSPopoverController ()
@@ -186,9 +186,9 @@
     [self.view addSubview:popoverView];
     
     UIWindow *appWindow = [[UIApplication sharedApplication] keyWindow];
-    //[appWindow addSubview:self.view];
+    [appWindow addSubview:self.view];
 
-    [appWindow.rootViewController.view addSubview:self.view];
+  //[appWindow.rootViewController.view addSubview:self.view];
 
     
     [UIView animateWithDuration:0.0
