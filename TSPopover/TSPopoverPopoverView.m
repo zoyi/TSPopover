@@ -9,7 +9,7 @@
 
 #import "TSPopoverPopoverView.h"
 
-#define MARGIN 10
+#define MARGIN 4
 #define ARROW_SIZE 12
 
 @implementation TSPopoverPopoverView

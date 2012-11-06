@@ -13,7 +13,7 @@
 #import <QuartzCore/QuartzCore.h>
 
 
-#define CORNER_RADIUS 0
+#define CORNER_RADIUS 1
 #define MARGIN 5
 #define OUTER_MARGIN 5
 #define TITLE_LABEL_HEIGHT 20
